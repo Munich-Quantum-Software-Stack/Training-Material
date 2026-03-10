@@ -1,0 +1,14 @@
+[project]
+name = "eqe-fupp-live-demo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "dotenv>=0.9.9",
+    "mqss-pennylane-adapter>=1.1.2",
+    "mqss-qiskit>=0.2.0",
+    "qiskit-experiments>=0.13.0",
+    "pennylane==0.40.0",
+    "autoray<0.7.0",
+]
